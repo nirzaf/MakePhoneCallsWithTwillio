@@ -1,0 +1,10 @@
+###
+# @name Root Voice Webhook
+POST https://localhost:7005/
+
+###
+# @name Submit Voice Webhook
+POST https://localhost:7005/submit
+Content-Type: application/x-www-form-urlencoded
+
+Digits=1
